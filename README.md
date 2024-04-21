@@ -2,13 +2,13 @@
 HP Omen by HP Laptop 15-dc0xxx (2018)
 
 copy udev rules and powertop script:
-
 ```sh
 sudo cp udev/rules.d/99-powertop.rules /etc/udev/rules.d/
 sudo cp pm/power.d/powertop.sh /etc/pm/power.d/
 
 chmod +x /etc/pm/power.d/powertop.sh
 ```
+
 install powertop:
 ```sh
 sudo pacman -S powertop
@@ -23,10 +23,7 @@ run powertop:
 ```sh
 sudo powertop
 ```
-
 press keytab and go to "Tunables" tab.
-
-![alt text](image.png)
 
 **Note:** "Bad" means it's not saving power
 
