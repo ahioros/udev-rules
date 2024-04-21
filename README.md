@@ -32,4 +32,4 @@ press keytab and go to "Tunables" tab.
 
 Let's test it, plug-out (yes from the AC) the laptop, see how it changes from "Bad" to "Good". Now plug-in back and see how it changes from "Good" to "Bad".
 
-It's working!, max performance on plug-in and powersave plug-out.
+It's working!, max performance on plug-in and powersave plug-out (battery mode).
